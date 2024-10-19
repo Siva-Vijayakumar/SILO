@@ -1,10 +1,9 @@
 import * as React from 'react';
-import 'whatwg-fetch';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import AboutUsScreen from './screens/AboutScreen';
-import ProjectsScreen from './screens/ProjectsScreen';
+import ProjectsScreen from './screens/ProjectScreen';
 import MediaScreen from './screens/MediaScreen'; 
 import ServicesScreen from './screens/ServiceScreen'; 
 import SplashScreen from './screens/SplashScreen'; // Import the SplashScreen
